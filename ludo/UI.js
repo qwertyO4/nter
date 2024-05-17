@@ -4,8 +4,8 @@ const diceButtonElement = document.querySelector('#dice-btn');
 const playerPiecesElements = {
     P1: document.querySelectorAll('[player-id="P1"].player-piece'),
     P2: document.querySelectorAll('[player-id="P2"].player-piece'),
-    //P3: document.querySelectorAll('[player-id="P3"].player-piece'),
-    //P4: document.querySelectorAll('[player-id="P4"].player-piece'),
+    P3: document.querySelectorAll('[player-id="P3"].player-piece'),
+    P4: document.querySelectorAll('[player-id="P4"].player-piece'),
 }
 
 export class UI {
@@ -90,9 +90,9 @@ export class UI {
     }
 }
 
-// UI.setPiecePosition('P1', 0, 0);
-// UI.setTurn(0);
-// UI.setTurn(1);
+//UI.setPiecePosition('P1', 0, 0);
+//UI.setTurn(0);
+//UI.setTurn(1);
 
 // UI.disableDice();
 // UI.enableDice();

@@ -137,21 +137,21 @@ export const COORDINATES_MAP = {
     603: [12.54, 3.45],
 
     // P3
-    700: [10.5, 1.58],
-    701: [12.54, 1.58],
-    702: [10.5, 3.45],
-    703: [12.54, 3.45],
+    700: [1.5, 1.58],
+    701: [3.6, 1.58],
+    702: [3.6, 3.45],
+    703: [1.5, 3.45],
 
     // P4
-    800: [10.5, 1.58],
-    801: [12.54, 1.58],
-    802: [10.5, 3.45],
-    803: [12.54, 3.45],
+    800: [10.5, 10.58],
+    801: [12.54, 12.5],
+    802: [10.5, 12.5],
+    803: [12.54, 10.58],
 };
 
 export const STEP_LENGTH = 6.66;
 
-export const PLAYERS = ['P1', 'P2','P3', 'P4'];
+export const PLAYERS = ['P3', 'P2', 'P4', 'P1'];
 
 export const BASE_POSITIONS = {
     P1: [500, 501, 502, 503],
@@ -162,9 +162,9 @@ export const BASE_POSITIONS = {
 
 export const START_POSITIONS = {
     P1: 0,
-    P2: 0,
-    P3: 8,
-    P4: 33
+    P2: 40,
+    P3: 60,
+    P4: 20
 }
 
 export const HOME_ENTRANCE = {

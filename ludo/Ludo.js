@@ -6,7 +6,7 @@ export class Ludo {
         P1: [],
         P2: [],
         P3: [],
-        P4: [],
+        P4: []
     }
 
     _diceValue;
@@ -86,7 +86,7 @@ export class Ludo {
     }
 
     incrementTurn() {
-        this.turn = this.turn === 0 ? 1 : 0;
+        this.turn = (this.turn + 1) % 4;
         this.state = STATE.DICE_NOT_ROLLED;
     }
 
